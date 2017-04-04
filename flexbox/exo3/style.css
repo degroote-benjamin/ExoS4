@@ -1,0 +1,47 @@
+nav
+{
+  height: 100px;
+  background-color: #ff944d;
+  display: flex;
+}
+
+div
+{
+  width: 100px;
+  margin: 15px auto 15px 15px;
+  background-color: #2eb8b8;
+  display: flex;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 5px;
+  margin-right: 15px;
+  background-color: skyblue;
+  display: flex;
+  width: 30%;
+}
+
+li
+{
+  width: 80px;
+  margin: 0 10px;
+  background-color: #ffcc99;
+  flex:1;
+}
+
+li:nth-child(4)
+{
+  order: 1;
+}
+
+li:nth-child(3)
+{
+  order: 2;
+}
+
+li:nth-child(5)
+{
+  flex:2;
+}

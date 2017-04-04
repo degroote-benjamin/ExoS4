@@ -1,0 +1,21 @@
+.container
+{
+  height: 500px;
+  border: 2px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  display: flex;
+}
+
+p {
+  margin: auto;
+}

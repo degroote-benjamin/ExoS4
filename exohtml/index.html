@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+     <h2>Exo label 1</h2>
+
+    <label>Pseudo : <input type="text" placeholder="Votre Pseudo"/></label>
+    <label>Mot de passe <input type="password" maxlength="12"/></label>
+
+    <h2>Exo label 2</h2>
+
+    <label for="mon-mail">email</label><input id="mon-mail" type="email" placeholder="exemple@domain.xx"/>
+    <label for="mon-nombre">nombre</label><input id="mon-nombre" type="number" min="5" max="12"/>
+
+    <h2>Exo checkbox 1</h2>
+
+    <label for="fruit">Fruit</label> <input id="fruit" type="checkbox">
+    <label for="legume">legume</label> <input id="legume" type="checkbox">
+    <label for="viande">viande</label> <input id="viande" type="checkbox">
+    <label for="poisson">poisson</label> <input id="poisson" type="checkbox">
+
+    <h2>Exo checkbox 2</h2>
+
+    <label for="beau">beau</label> <input type="checkbox">
+    <label for="intelligent">intelligent</label> <input type="checkbox" checked>
+    <label for="curieux">curieux</label> <input type="checkbox" checked>
+    <label for="musclé">musclé</label> <input type="checkbox">
+
+    <h2>Exo checkbox 3</h2>
+
+
+	<h1>Choisir un sport: </h1>
+	<label for="foot">foot</label> <input type="checkbox">
+	<label for="gym">gym</label> <input type="checkbox">
+	<label for="boxe">boxe</label> <input type="checkbox">
+	<label for="tennis">tennis</label> <input type="checkbox">
+
+  <h2>Exo radio 1</h2>
+
+    <h1>Choisir une tranche d'age</h1>
+    <input type="radio" value="-18" name="Age">
+    <label for="-18">Moins de 18 ans</label>
+    <input type="radio" value="18-25" name="Age">
+    <label for="18-25">18 - 25 ans</label>
+    <input type="radio" value="25-40" name="Age">
+    <label for="25-40">25 - 40 ans</label>
+    <input type="radio" value="40+" name="Age">
+    <label for="40+">40 ans et plus</label>
+
+    <h2>Exo radio 2</h2>
+    <h1>Choisir une ville</h1>
+    <input type="radio" value="lille" name="ville">
+    <label for="lille">Lille</label>
+    <input type="radio" value="roubaix" name="ville">
+    <label for="roubaix">Roubaix</label>
+    <input type="radio" value="tourcoing" name="ville">
+    <label for="tourcoing">Tourcoing</label>
+    <input type="radio" value="marcq" name="ville">
+    <label for="marcq">marcq</label>
+    <input type="radio" value="wattrelos" name="ville">
+    <label for="wattrelos">wattrelos</label>
+    <input type="radio" value="mons" name="ville">
+    <label for="mons">mons</label>
+
+    <h2>Exo radio 3</h2>
+
+    <h1>Choisir votre animal preferer</h1>
+    <input type="radio" name="anim" value="chien" checked>
+    <label for="chien">chien</label>
+    <input type="radio" name="anim" value="chat">
+    <label for="chat">chat</label>
+    <input type="radio" name="anim" value="lapin">
+    <label for="lapin">lapin</label>
+    <input type="radio" name="anim" value="hamster">
+    <label for="hamster">hamtaro</label>
+
+    <h2>Exo dropdown 1</h2>
+
+    <label for="chant">Choisi ta chanson</label>
+    <select name="chant">
+      <option value="bad">Bad - Micheal Jackson</option>
+      <option value="billie">Billie jean - Micheal Jackson</option>
+      <option value="thriller">Thriller - Micheal Jackson</option>
+      <option value="black">Black or white - Micheal Jackson</option>
+
+    </select>
+
+    <h2>Exo dropdown 2</h2>
+    <label for="alim">Choisi ton aliment</label>
+    <select name="alim">
+      <optgroup label="Fruit">
+        <option value="Pomme">Pomme</option>
+        <option value="Poire">Poire</option>
+        <option value="Fraise">Fraise</option>
+      </optgroup>
+      <optgroup label="Legume">
+        <option value="Poireau">Poireau</option>
+        <option value="Pdt">Pomme de terre</option>
+        <option value="Haricot">Haricot</option>
+      </optgroup>
+    </select>
+
+<h2>Exo dropdown 3</h2>
+    <label for="film">Choisi ton film</label>
+    <select name="film">
+    <optgroup label="fantastique">
+      <option value="harry">Harry potter</option>
+      <option value="lotr">Lord of the ring</option>
+    </optgroup>
+    <optgroup label="comedie">
+      <option value="hh">how high</option>
+      <option value="scary">scary movie</option>
+    </optgroup>
+    <optgroup label="action">
+      <option value="ff">fast and furious</option>
+      <option value="rambo">Rambo</option>
+    </optgroup>
+   </select>
+<h2>exo formulaire</h2>
+
+      <form action="traitement.php" method="post">
+        <p>
+        <label for="Nom">Nom</label>
+        <input type="text" name="nom" value="">
+        <label for="Prenom">Prenom</label>
+        <input type="text" name="prenom" value="">
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" value="">
+        <label for="mail">Email</label>
+        <input type="email" name="" value="">
+        <label for="voiture">Choisir une ou plusieur marque</label><br>
+        <input type="checkbox"><label for="ferrari">ferrari</label>
+        <input type="checkbox"><label for="porshe">porshe</label>
+        <input type="checkbox"><label for="lambo">lamborghini</label>
+        <input type="checkbox"><label for="audi">audi</label>
+        <input type="checkbox"><label for="mercedes">mercedes</label><br>
+        <label for="sexe">Sexe</label>
+        <input type="radio" name="sexe">
+        <label for="Homme">Homme</label>
+        <input type="radio" name="sexe">
+        <label for="Femme">Femme</label>
+        </p>
+      </form>
+
+
+<h2>Exo formulaire 2</h2>
+
+  <form action="traitement.php" method="post">
+      <p>
+        <label for="Pseudo">Pseudo</label>
+        <input type="text" name="Pseudo" value="" autofocus required>
+        <label for="Password">Password</label>
+        <input type="password" name="password" value="" required maxlength="20">
+        <label for="age">Age</label>
+        <input type="number" name="age" value="" min="18" max="40">
+        <label for="qualite">Vos qualité</label>
+        <input type="checkbox"><label for="serieux">serieux</label>
+        <input type="checkbox"><label for="ponctuel">ponctuel</label>
+        <input type="checkbox"><label for="jovial">jovial</label>
+        <input type="checkbox"><label for="rigoureux">rigoureux</label>
+        <input type="checkbox"><label for="drole">drole</label>
+        <label for"maison">Travail a la maison</label>
+        <input type="radio" name="maison"><label for="maison">oui</label>
+        <input type="radio" name="maison"><label for="maison">non</label>
+        <br><label for="Messages">Messages :</label>
+        <textarea name="name" rows="5" cols="12" placeholder="Tapez votre texte ici"></textarea>
+        <input type="submit" name="soumettre" value="soumettre">
+      </p>
+  </form>
+
+
+  <h2>Exo formulaire 3</h2>
+
+  <form action="traitement.php" method="post">
+    <p>
+      <label for="name">Name</label>
+      <input type="text" name="name" value="" autofocus>
+      <label for="mail">email</label>
+      <input type="email" name="email" value="" placeholder="exemple@domain.xxx">
+      <label for="age">Age</label>
+      <input type="number" name="age" value="">
+      <label for="message">Message</label>
+      <input type="text" name="" value="" style="height:150px;">
+      <label for="langue">choisir une ou plusieur langue</label><br>
+      <label for="en">Anglais</label>
+      <input type="checkbox" name="langue" value="" checked>
+      <label for="es">Espagnol</label>
+      <input type="checkbox" name="langue" value="">
+      <label for="ita">Italien</label>
+      <input type="checkbox" name="langue" value="">
+      <label for="level">Choisir votre niveau</label>
+      <input type="radio" name="level" value=""><label for="level">Debutant</label>
+      <input type="radio" name="level" value=""><label for="level">Bon</label>
+      <input type="radio" name="level" value=""><label for="level">Confirmé</label>
+    </p>
+  </form>
+  </body>
+</html>
